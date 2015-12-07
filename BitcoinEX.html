@@ -1,0 +1,33 @@
+<html>
+    <header>
+        <style>
+        h1{
+            font-family: "Calibri", Arial, sans-serif;
+            font-size: 60px;
+        }
+        #container{
+            font-family: "Calibri", Arial, sans-serif;
+            font-size: 42px;
+            border: 4px solid #999999;
+            border-bottom-width: 6px;
+            height: 60px;
+            width: 500px;
+        }
+        </style>
+    </header>
+    <center>
+    <h1> iBean Bitcoin Exchange </h1>
+    <div id="container">
+        <input type="text" name="bi" 
+            onchange="btcConvert(this);" onkeyup="btcConvert(this);"/>
+        BTC=<input type="text" name="ci" id="ci" readonly="true"/> USD
+    </div>
+    <script>
+        function btcConvert(input){
+            if(isNaN(input.value)){input.value=0;}
+            var price="<? php echo $btcDisplay; ?>";
+            var output=input.value * price;
+            var co=document.getElementById('ci');
+            ci.value=output.toFixed(2);
+        }
+    </script>
