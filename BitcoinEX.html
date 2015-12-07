@@ -21,19 +21,11 @@
         
         <div id="btc-quote"></div>
         <script type="text/javascript" src="https://www.weusecoins.com/embed.js"></script>
+        
+        <p><span class=f>=---> </span>
+        <a href="http://nashbean.github.io/BitcoinConverter.php"> Bitcoin Converter </a> </p>
 
-    <div id="container">
-        <input type="text" name="bi" 
-            onchange="btcConvert(this);" onkeyup="btcConvert(this);"/>
-        BTC=<input type="text" name="ci" id="ci" readonly="true"/> USD
-    </div>
-    <script>
-        function btcConvert(input){
-            if(isNaN(input.value)){input.value=0;}
-            var price="<? php echo $btcDisplay; ?>";
-            var output=input.value * price;
-            var co=document.getElementById('ci');
-            ci.value=output.toFixed(2);
-        }
-    </script>
+
+        
     <body>
+</html>
