@@ -1,0 +1,63 @@
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<style>
+b{
+    background-color: #000;
+    color: #0f0;
+}
+
+h2 {
+    font-family: Lobster, Monospace;
+}
+
+p{
+    font-size: 16px;
+    font-family: Monospace;
+}
+
+.border-green-thick {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.box {
+    border-style: solid;
+    border-color: siver;
+    border-width: 5px;
+    text-align: center;
+}
+
+.box-green {
+    background-color: green;
+    padding: 30px;
+}
+
+.box-red {
+    background-color: red;
+    padding: 20px;
+}
+
+.box-yellow {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.image-small {
+    width: 100px;
+}
+
+.text-injected {
+    margin-bottom: -25px;
+    text-align: center;
+}
+
+.text-red {
+    color: red;
+}
+
+
+</style>
