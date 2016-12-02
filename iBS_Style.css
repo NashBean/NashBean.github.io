@@ -3,12 +3,24 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
 <style>
-b{
-    background-color: #000;
+body{
+    background: #000;
     color: #0f0;
+    margin: 0; 
+    padding: 12px; 
+    border: 0; 
+    font-family: Courier New; 
+}
+
+h1 {
+    background-color: #000;
+    color: #f00;
+    font-family: Lobster, Monospace;
 }
 
 h2 {
+    background-color: #000;
+    color: #00f;
     font-family: Lobster, Monospace;
 }
 
