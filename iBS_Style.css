@@ -1,4 +1,11 @@
 
+a{
+    background-color: #040;
+    color: #ff0;
+    font-family: Courier New; 
+    font-size: 14pt;
+    text-decoration: underline;
+}
 
 body{
     background-color: #000;
@@ -12,7 +19,7 @@ body{
 h1 {
     background-color: #000;
     color: #00f;
-    font-family: Lobster, Monospace;
+    font-family: Monospace;
     font-size: 20pt;
     font-weight: bold;
     padding-right: 1ex;
@@ -22,7 +29,7 @@ h1 {
 h2 {
     background-color: #000;
     color: #0ff;
-    font-family: Lobster, Monospace;
+    font-family: Monospace;
     font-size: 14pt;
     font-weight: bold;
     padding-top: 2em;
@@ -32,7 +39,7 @@ h2 {
 h3 {
     background-color: #000;
     color: #0f0;
-    font-family: Lobster, Monospace;
+    font-family: Monospace;
     font-size: 14pt;
     font-weight: bold;
     padding-left: 12px;
@@ -84,6 +91,27 @@ p{
     padding: 10px;
 }
 
+.btn {
+	background: url(../images/bg-button.png) no-repeat;
+	background-position: 0 -70px;
+	color: #fff;
+	display: inline-block;
+	font: 24px/60px 'OpenSans';
+	height: 60px;
+	width: 230px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-position: 0 0;
+}
+
+.image-banner {
+    width: 100%;
+}
+
 .image-small {
     width: 100px;
 }
@@ -97,6 +125,14 @@ p{
     color: red;
 }
 
+.clearfix:after, #contents:after {
+	clear:both;
+	content:"";
+	display:block;
+	height:1%;
+	line-height:0;
+	visibility:hidden;
+}
 #container{
     font-family: "Calibri", Arial, sans-serif;
     font-size: 42px;
