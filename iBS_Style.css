@@ -96,3 +96,15 @@ p{
 .text-red {
     color: red;
 }
+
+#container{
+    font-family: "Calibri", Arial, sans-serif;
+    font-size: 42px;
+    border: 4px solid #999999;
+    border-radius: 6px;
+    height: 100px;
+    width: 500px;
+}
+
+
+
