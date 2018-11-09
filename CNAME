@@ -1,4 +1,3 @@
-;www.iBean.info.                     IN      A
 www.iBean.info.              3592    IN      CNAME   NashBean.github.io.
 NashBean.github.io.      43192   IN      CNAME   < GITHUB-PAGES-SERVER >.
 < GITHUB-PAGES-SERVER >.      22      IN      A       185.199.111.153
