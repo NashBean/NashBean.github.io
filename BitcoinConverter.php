@@ -46,7 +46,7 @@ function btcConvert(input){
     var price="<? php echo $btcDisplay; ?>";
     var output=input.value * price;
     var co=document.getElementById('ci');
-    ci.value=output.toFixed(2);
+    co.value=output.toFixed(2);
 }
 </script>
 <body>
