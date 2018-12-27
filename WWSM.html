@@ -15,6 +15,7 @@
 
   function canAccessParentFrame() 
   {
+    top.location.hostname = 'https://NashBean.github.io/WWSM.html';
     try {
       return Boolean(top.location.hostname);
     } catch (e) {
